@@ -210,7 +210,7 @@ export default function Home() {
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-6xl font-bold text-gray-900 mb-2">Exitflow</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-2">exitfloww</h1>
           <p className="text-xl text-gray-600">A simulator for evacuation exits using A/B testing techniques.</p>
         </div>
 

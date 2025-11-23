@@ -1,5 +1,5 @@
 {
-  "name": "hello-next",
+  "name": "exitfloww",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node sammy.js && next start -H 0.0.0.0 -p ${PORT:-8081}",
+    "start": "node sammy.js && next start -H 0.0.0.0 -p ${PORT:-8080}",
     "lint": "next lint"
   },
   "keywords": [],
