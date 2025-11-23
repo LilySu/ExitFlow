@@ -209,7 +209,10 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 p-12">
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
-        <h1 className="text-5xl font-bold text-gray-900 mb-12">Evacuation A/B Test</h1>
+        <div className="mb-12">
+          <h1 className="text-6xl font-bold text-gray-900 mb-2">Exitflow</h1>
+          <p className="text-xl text-gray-600">A simulator for evacuation exits using A/B testing techniques.</p>
+        </div>
 
         {error && (
           <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
