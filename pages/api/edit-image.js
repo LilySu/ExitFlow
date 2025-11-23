@@ -35,6 +35,14 @@ export default async function handler(req, res) {
     const crowdDir = path.join(process.cwd(), "images", "crowd");
     const facilityDir = path.join(process.cwd(), "images", "facility");
 
+    // Ensure directories exist
+    if (!fs.existsSync(crowdDir)) {
+      fs.mkdirSync(crowdDir, { recursive: true });
+    }
+    if (!fs.existsSync(facilityDir)) {
+      fs.mkdirSync(facilityDir, { recursive: true });
+    }
+
     let crowdFileName = crowdImage;
     let facilityFileName = facilityImage;
 
