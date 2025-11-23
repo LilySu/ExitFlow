@@ -12,3 +12,4 @@ images/facility/*
 images/temp/*
 !images/crowd/.gitkeep
 !images/facility/.gitkeep
+.DS_Store
