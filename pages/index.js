@@ -14,8 +14,8 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   // Prompt states
-  const [promptA, setPromptA] = useState("Show the crowd of people calmly exiting the facility through the main exit, photorealistic with natural lighting and full color");
-  const [promptB, setPromptB] = useState("Show the crowd of people quickly evacuating the facility through emergency exits, photorealistic with natural lighting and full color");
+  const [promptA, setPromptA] = useState("Show the crowd of people calmly exiting the facility through the main exit, photorealistic with natural lighting and full color. Always keep the image of just the building without people exactly the same with the image of the crowd superimposed.");
+  const [promptB, setPromptB] = useState("Show the crowd of people quickly evacuating the facility through emergency exits, photorealistic with natural lighting and full color. Always keep the image of just the building without people exactly the same with the image of the crowd superimposed.");
   const [pedestrianFlowA, setPedestrianFlowA] = useState("25");
   const [pedestrianFlowB, setPedestrianFlowB] = useState("25");
 

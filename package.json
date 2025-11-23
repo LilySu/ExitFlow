@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node sammy.js; next start -p ${PORT:-8080}",
+    "start": "node sammy.js && next start -H 0.0.0.0 -p ${PORT:-8080}",
     "lint": "next lint"
   },
   "keywords": [],
