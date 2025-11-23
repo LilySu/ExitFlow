@@ -1,0 +1,25 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node sammy.js; next start -p ${PORT:-8080}",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fal-ai/client": "^1.7.2",
+    "dotenv": "^17.2.3",
+    "eslint-config-next": "^15.4.5",
+    "formidable": "^3.5.4",
+    "next": "^15.4.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "serve": "^14.2.4"
+  }
+}
