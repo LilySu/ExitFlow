@@ -2,14 +2,5 @@ node_modules/
 .next/
 /_static
 .env
-images/*
-!images/.gitkeep
-!images/crowd/
-!images/facility/
-!images/temp/
-images/crowd/*
-images/facility/*
-images/temp/*
-!images/crowd/.gitkeep
-!images/facility/.gitkeep
+
 .DS_Store

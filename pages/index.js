@@ -210,7 +210,7 @@ export default function Home() {
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-6xl font-bold text-gray-900 mb-2">exitfloww</h1>
+          <h1 className="text-6xl font-bold text-gray-900 mb-2">exitflow</h1>
           <p className="text-xl text-gray-600">A simulator for evacuation exits using A/B testing techniques.</p>
         </div>
 
@@ -378,7 +378,7 @@ export default function Home() {
                         placeholder="25"
                         step="0.1"
                       />
-                      <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong> width</p>
+                      <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong></p>
                     </div>
                   </div>
 
@@ -408,7 +408,7 @@ export default function Home() {
                         placeholder="25"
                         step="0.1"
                       />
-                      <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong> width</p>
+                      <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong></p>
                     </div>
                   </div>
                 </div>
@@ -490,7 +490,7 @@ export default function Home() {
                           placeholder="25"
                           step="0.1"
                         />
-                        <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong> width</p>
+                        <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong></p>
                       </div>
                       {/* Generate Scenario A Button */}
                       <button
@@ -567,7 +567,7 @@ export default function Home() {
                           placeholder="25"
                           step="0.1"
                         />
-                        <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong> width</p>
+                        <p className="text-xs text-gray-500 mt-1"><strong>persons/min/m</strong></p>
                       </div>
                       {/* Generate Scenario B Button */}
                       <button
