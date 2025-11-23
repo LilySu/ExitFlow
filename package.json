@@ -20,7 +20,7 @@
     "dotenv": "^17.2.3",
     "eslint-config-next": "^15.4.5",
     "formidable": "^3.5.4",
-    "next": "^15.4.5",
+    "next": "^16.0.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "serve": "^14.2.4"
